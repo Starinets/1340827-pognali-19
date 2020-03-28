@@ -1,12 +1,436 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Погнали</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Погнали</title>
   </head>
+
   <body>
+    <header class="page-header">
+      <nav class="page-header__nav main-nav">
+        <a class="main-nav__logo-link">
+          <img
+            class="main-nav__logo-image"
+            src="https://via.placeholder.com/96x15"
+            width="96"
+            height="15"
+            alt="Лого Погнали"
+          />
+        </a>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+        <a class="main-nav__menu-button">
+          <img
+            class="main-nav__logo-image"
+            src="https://via.placeholder.com/19x19"
+            width="19"
+            height="19"
+            alt="открыть/закрыть меню"
+          />
+        </a>
 
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__link" href="#">О сервисе</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#">Направления</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#">Попутчики</a>
+            </li>
+          </ul>
+
+          <ul class="main-nav__list user-list">
+            <li class="user-list__item">
+              <a class="user-list__login" href="login.html">Авторизация</a>
+            </li>
+          </ul>
+
+          <ul class="main-nav__list contact-list">
+            <li class="contact-list__item">
+              <a class="contact-list__link" href="tel:+88005558628">
+                8 800 555-86-28
+              </a>
+            </li>
+            <li class="contact-list__item">
+              <a class="contact-list__link" href="mailto:mail@htmlacademy.ru">
+                mail@htmlacademy.ru
+              </a>
+            </li>
+          </ul>
+
+          <ul class="main-nav__list social-list">
+            <li class="social-list__item">
+              <a class="social-list__link" href="#">Facebook</a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link" href="#">VKontakte</a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link" href="#">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1 class="page-header__title">В путешествие с крутыми попутчиками!</h1>
+
+      <ul class="page-header__list contact-line-list">
+        <li class="contact-line-list__item">
+          <a class="contact-line-list__link" href="tel:+88005558628">
+            <img
+              class="contact-line-list__logo-image"
+              src="https://via.placeholder.com/40x40"
+              width="40"
+              height="40"
+              alt="Позвоните нам"
+            />
+          </a>
+        </li>
+        <li class="contact-line-list__item">
+          <a class="contact-line-list__link" href="tel:+88005558628">
+            <img
+              class="contact-line-list__write-us"
+              src="https://via.placeholder.com/40x40"
+              width="40"
+              height="40"
+              alt="напишите нам"
+            />
+          </a>
+        </li>
+        <li class="contact-line-list__item">
+          <a class="contact-line-list__link" href="#">
+            Авторизация
+          </a>
+        </li>
+      </ul>
+
+      <section class="page-header__info header-info">
+        <h2 class="visually-hidden">Краткая информация о том, как начать</h2>
+
+        <blockquote class="header-info__quote">
+          «Лучшее приложение, что я видел в жизни!»
+        </blockquote>
+        <cite class="header-info__cite">
+          Мурат Эльтазин главный редактор газеты «гаджетлайф»
+        </cite>
+
+        <ol class="header-info__list list-how-to">
+          <li class="list-how-to__item">Выберите направление</li>
+          <li class="list-how-to__item">Изучите идеи путешественников</li>
+          <li class="list-how-to__item">Находите тех, кто похож на вас</li>
+          <li class="list-how-to__item">Путешествуйте вместе!</li>
+        </ol>
+      </section>
+    </header>
+
+    <main class="page-main">
+      <section class="page-main__about main-about">
+        <h2 class="main-about__header">О сервисе</h2>
+
+        <p class="main-about__text">
+          Любое путешествие веселее с попутчиками, которые на одной волне с
+          тобой! Делитесь своими идеями путешествий и черпайте вдохновение в
+          чужих.
+        </p>
+        <p class="main-about__text">
+          <b>
+            А если найдете кого-то близкого по духу — скорее зовите в совместный
+            трип!
+          </b>
+        </p>
+      </section>
+
+      <section class="page-main__directions main-directions">
+        <h2 class="main-directions__header">Направления</h2>
+
+        <p class="main-directions__text">
+          Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах,
+          куда хотели бы отправиться и чем можно там заняться.
+        </p>
+
+        <article class="main-directions__country direction-country">
+          <img
+            class="direction-country__image"
+            src="https://via.placeholder.com/270x110"
+            width="270"
+            height="110"
+            alt=""
+          />
+          <img
+            class="direction-country__flag"
+            src="https://via.placeholder.com/35x24"
+            width="35"
+            height="24"
+            alt="флаг"
+          />
+          <h3 class="direction-country__header">Тайланд</h3>
+          <p class="direction-country__tagline">Джунгли зовут</p>
+          <p class="direction-country__counter">18321</p>
+        </article>
+
+        <article class="main-directions__country direction-country">
+          <img
+            class="direction-country__image"
+            src="https://via.placeholder.com/270x110"
+            width="270"
+            height="110"
+            alt=""
+          />
+          <img
+            class="direction-country__flag"
+            src="https://via.placeholder.com/35x24"
+            width="35"
+            height="24"
+            alt="флаг"
+          />
+          <h3 class="direction-country__header">Франция</h3>
+          <p class="direction-country__tagline">Трэ бьен, минифик!</p>
+          <p class="direction-country__counter">12518</p>
+        </article>
+
+        <article class="main-directions__country direction-country">
+          <img
+            class="direction-country__image"
+            src="https://via.placeholder.com/270x110"
+            width="270"
+            height="110"
+            alt=""
+          />
+          <img
+            class="direction-country__flag"
+            src="https://via.placeholder.com/35x24"
+            width="35"
+            height="24"
+            alt=""
+          />
+          <h3 class="direction-country__header">Чехия</h3>
+          <p class="direction-country__tagline">Закоулки старой Европы</p>
+          <p class="direction-country__counter">5326</p>
+        </article>
+
+        <a class="main-directions__link" href="#">Показать все</a>
+      </section>
+
+      <section class="page-main__companion main-companion">
+        <h2 class="main-companion__header">Попутчики</h2>
+        <p class="main-companion__text">
+          Все мы индивидуальны и у каждого свой взгляд на идеальный отдых.
+          Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
+        </p>
+
+        <p class="main-companion__text">
+          <strong>
+            Теперь можно легко найти единомышленников!
+          </strong>
+        </p>
+
+        <article class="main-companion__user companion-user">
+          <img
+            class="companion-user__photo"
+            src="https://via.placeholder.com/270x270"
+            width="270"
+            height="270"
+            alt=""
+          />
+
+          <h3 class="companion-user__name">Таня Фирсова</h3>
+
+          <p class="companion-user__hashtags">
+            #ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи
+          </p>
+
+          <ul class="companion-user__country user-country">
+            <li class="user-country__item">
+              <img
+                class="user-country__flag"
+                src="https://via.placeholder.com/35x24"
+                width="35"
+                height="24"
+                alt="Шри-Ланка"
+              />
+            </li>
+            <li class="user-country__item">
+              <img
+                class="user-country__flag"
+                src="https://via.placeholder.com/35x24"
+                width="35"
+                height="24"
+                alt="Тайланд"
+              />
+            </li>
+            <li class="user-country__item">
+              <img
+                class="user-country__flag"
+                src="https://via.placeholder.com/35x24"
+                width="35"
+                height="24"
+                alt="Сейшелы"
+              />
+            </li>
+          </ul>
+
+          <ul class="companion-user__transport transport-list">
+            <li class="transport-list__item">Авиаперелет</li>
+            <li class="transport-list__item">Автотранспорт</li>
+            <li class="transport-list__item">Велосипед</li>
+            <li class="transport-list__item">Пешком</li>
+          </ul>
+
+          <div class="companion-user__level user-level">
+            <img
+              class="user-level__progress"
+              src="https://via.placeholder.com/60x60"
+              width="60"
+              height="60"
+              alt=""
+            />
+            <p class="user-level__level">99</p>
+            <p class="user-level__text">level</p>
+          </div>
+        </article>
+
+        <article class="main-companion__companion companion-user">
+          <img
+            class="companion-user__photo"
+            src="https://via.placeholder.com/270x270"
+            width="270"
+            height="270"
+            alt=""
+          />
+
+          <h3 class="companion-user__name">Петя Демин</h3>
+
+          <p class="companion-user__hashtags">
+            #бургер #бар #футбол #концерт #крафт
+          </p>
+
+          <ul class="companion-user__country user-country">
+            <li class="user-country__item">
+              <img
+                class="user-country__flag"
+                src="https://via.placeholder.com/35x24"
+                width="35"
+                height="24"
+                alt="Бельгия"
+              />
+            </li>
+            <li class="user-country__item">
+              <img
+                class="user-country__flag"
+                src="https://via.placeholder.com/35x24"
+                width="35"
+                height="24"
+                alt="Чехия"
+              />
+            </li>
+          </ul>
+
+          <ul class="companion-user__transport transport-list">
+            <li class="transport-list__item">Авиаперелет</li>
+            <li class="transport-list__item">Автотранспорт</li>
+            <li class="transport-list__item">Велосипед</li>
+            <li class="transport-list__item">Пешком</li>
+          </ul>
+
+          <div class="companion-user__level user-level">
+            <img
+              class="user-level__progress"
+              src="https://via.placeholder.com/60x60"
+              width="60"
+              height="60"
+              alt=""
+            />
+            <p class="user-level__level">80</p>
+            <p class="user-level__text">level</p>
+          </div>
+        </article>
+
+        <a class="main-companion__link" href="#">Показать всех</a>
+      </section>
+
+      <section class="page-main__reg-info main-reg-info">
+        <div class="main-reg-info reg-info-person">
+          <h2 class="reg-info-person__header">Добавьте свой профиль</h2>
+
+          <dl class="reg-info-person__list">
+            <dt class="reg-info-person__key">Базовое размещение</dt>
+            <dd class="reg-info-person__value">Бесплатно</dd>
+
+            <dt class="reg-info-person__key">Вывод на первых позициях</dt>
+            <dd class="reg-info-person__value">99 руб./мес</dd>
+
+            <dt class="reg-info-person__key">Кастомный цвет карточки</dt>
+            <dd class="reg-info-person__value">59 руб./мес</dd>
+          </dl>
+
+          <button class="reg-info-person__button">
+            Показать тарифы для бизнеса
+          </button>
+        </div>
+
+        <div class="main-reg-info reg-info-bisnes">
+          <h2 class="reg-info-bisnes__header">Бизнес-тарифы</h2>
+
+          <dl class="reg-info-bisnes__list">
+            <dt class="reg-info-bisnes__key">Реклама у блоггера</dt>
+            <dd class="reg-info-bisnes__value">300 000 руб./пост</dd>
+
+            <dt class="reg-info-bisnes__key">Накрутка подписчиков</dt>
+            <dd class="reg-info-bisnes__value">от 1 руб./шт.</dd>
+
+            <dt class="reg-info-bisnes__key">Лайки от ботов</dt>
+            <dd class="reg-info-bisnes__value">от 20 коп./лайк</dd>
+
+            <dt class="reg-info-bisnes__key">Ваш продакт-плейсмент</dt>
+            <dd class="reg-info-bisnes__value">Индивидуально</dd>
+          </dl>
+
+          <button class="reg-info-bisnes__button">
+            Закрыть окно
+          </button>
+        </div>
+      </section>
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                              Красный блок                               -->
+      <!-- ----------------------------------------------------------------------- -->
+    </main>
+
+    <footer class="page-footer">
+      <a class="page-footer__logo-link">
+        <img
+          class="page-footer__logo-image"
+          src="https://via.placeholder.com/96x15"
+          width="96"
+          height="15"
+          alt="Лого Погнали"
+        />
+      </a>
+
+      <ul class="page-footer__social footer-social">
+        <li class="footer-social__item">
+          <a class="footer-social__link" href="#" target="_blank">Facebook</a>
+        </li>
+        <li class="footer-social__item">
+          <a class="footer-social__link" href="#" target="_blank">VKontakte</a>
+        </li>
+        <li class="footer-social__item">
+          <a class="footer-social__link" href="#" target="_blank">Instagram</a>
+        </li>
+      </ul>
+
+      <p class="page-footer__copyright">Разработано</p>
+
+      <a
+        class="page-footer__htmlacademy"
+        href="https://htmlacademy.ru/intensive/adaptive"
+        target="_blank"
+      >
+        HTML Academy
+      </a>
+    </footer>
   </body>
 </html>
