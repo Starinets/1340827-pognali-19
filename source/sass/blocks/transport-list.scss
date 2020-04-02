@@ -1,0 +1,10 @@
+.transport-list {
+  display: flex;
+  justify-content: center;
+
+  @include list-resset;
+
+  &__item:not(:last-child) {
+    margin-right: 17px;
+  }
+}

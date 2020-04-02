@@ -1,0 +1,26 @@
+.page-header {
+  &__wrapper {
+    position: relative;
+
+    @include wrapper-setup;
+
+    min-height: 478px;
+
+    padding: 25px;
+
+    background-color: $dark-blue-grey;
+
+    background-image: url("../img/traveller-illustration-mobile@1x.png"),
+      url("../img/globe-back-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: right 49px bottom, bottom left;
+
+    color: $white;
+  }
+
+  &__contact-list {
+    position: absolute;
+    bottom: -20px;
+    right: 25px;
+  }
+}

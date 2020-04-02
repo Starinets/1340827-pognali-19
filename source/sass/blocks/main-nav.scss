@@ -1,0 +1,36 @@
+.main-nav {
+  // .main-nav__logo-link
+
+  // .main-nav__wrapper
+  &__header-wrapper {
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo-link {
+    color: $white;
+  }
+
+  // .main-nav__logo-image
+  &__logo-image {
+    color: $white;
+  }
+
+  // .main-nav__menu-button
+
+  &__menu-button {
+    color: $white;
+  }
+
+  // .main-nav__wrapper
+  &__wrapper {
+    display: none;
+  }
+
+  // .main-nav__list
+  &__list {
+    color: $white;
+  }
+}

@@ -1,0 +1,71 @@
+.page-main {
+  &__info-wrapper {
+    @include wrapper-setup;
+
+    background-color: $pale-grey;
+  }
+
+  &__info {
+    padding: 50px 25px 39px 25px;
+
+    background-color: $dark-blue-grey;
+  }
+
+  &__about {
+    padding: 33px 25px 85px 25px;
+
+    background-color: $dark-blue-grey;
+
+    border-radius: 0 0 20px 20px;
+  }
+
+  &__directions-wrapper {
+    @include wrapper-setup;
+
+    background-color: $dark-blue-grey;
+  }
+
+  &__directions {
+    padding: 70px 25px 30px 25px;
+
+    background-color: $pale-grey;
+
+    border-radius: 0 0 20px 20px;
+  }
+
+  &__companion-wrapper {
+    @include wrapper-setup;
+
+    background-color: $pale-grey;
+  }
+
+  &__companion {
+    padding: 70px 25px 30px 25px;
+
+    background-color: $dark-blue-grey;
+
+    border-radius: 0 0 20px 20px;
+  }
+
+  &__reg-info-wrapper {
+    @include wrapper-setup;
+
+    background-color: $dark-blue-grey;
+  }
+
+  &__reg-info {
+    padding: 50px 25px 38px 25px;
+
+    background-color: $pale-grey;
+
+    border-radius: 0 0 20px 20px;
+  }
+
+  &__transparet-layer-for-map {
+    @include wrapper-setup;
+
+    height: 272px;
+
+    background-color: $transparent;
+  }
+}

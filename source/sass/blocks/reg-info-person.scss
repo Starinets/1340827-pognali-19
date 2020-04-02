@@ -1,0 +1,75 @@
+.reg-info-person {
+  margin-left: 25px;
+
+  &__header {
+    @include Text-Style-11;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include Text-Style-12;
+
+    p {
+      margin: 0;
+    }
+
+    > div {
+      flex-basis: calc(100% - 45px);
+
+      padding: 14px 0 14px 0;
+
+      border-top: 1px solid $black-10;
+    }
+
+    > div:nth-last-child(2) {
+      border-bottom: 1px solid $black-10;
+    }
+  }
+
+  &__num {
+    display: inline-block;
+
+    width: 34px;
+    height: 34px;
+
+    background-color: $mango-three;
+
+    @include Text-Style-21;
+    line-height: 34px;
+
+    border-radius: 50%;
+
+    &--a {
+      background-color: $mango-three;
+    }
+
+    &--b {
+      background-color: $mango-two;
+    }
+
+    &--c {
+      background-color: $light-gold;
+    }
+  }
+
+  &__value {
+    margin-left: 0;
+  }
+
+  &__button {
+    width: 250px;
+    height: 40px;
+
+    margin-top: 20px;
+
+    background-color: $transparent;
+
+    @include Text-Style-22;
+    text-align: center;
+
+    border: 0;
+  }
+}

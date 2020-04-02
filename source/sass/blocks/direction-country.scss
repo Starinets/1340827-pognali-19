@@ -1,0 +1,44 @@
+.direction-country {
+  position: relative;
+
+  min-height: 190px;
+
+  &__image {
+    border-radius: 10px 10px 0 0;
+  }
+
+  &__inner {
+    position: absolute;
+    left: 0;
+    top: 99px;
+
+    width: 100%;
+    height: 90px;
+
+    background-color: $white;
+
+    border-radius: 10px;
+  }
+
+  &__header {
+    @include Text-Style-13;
+  }
+
+  &__tagline {
+    opacity: 0.3;
+
+    @include Text-Style-14;
+  }
+
+  &__counter {
+    opacity: 0.3;
+
+    @include Text-Style-15;
+  }
+
+  &__flag {
+    position: absolute;
+    left: 25px;
+    top: 86px;
+  }
+}

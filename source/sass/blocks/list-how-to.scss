@@ -1,0 +1,45 @@
+.list-how-to {
+  display: block;
+
+  @include list-resset;
+
+  // prettier-ignore
+  background: linear-gradient(to bottom, $mango, $mango, $mango-three, $mango-two, $light-gold);
+
+  border-radius: 10px;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+
+    height: 80px;
+
+    padding: 23px 25px;
+
+    @include Text-Style-9;
+
+    border-radius: 10px;
+
+    > span {
+      margin-left: 40px;
+
+      @include Text-Style-10;
+    }
+
+    &--orange1 {
+      background-color: $mango;
+    }
+
+    &--orange2 {
+      background-color: $mango-three;
+    }
+
+    &--yellow1 {
+      background-color: $mango-two;
+    }
+
+    &--yellow2 {
+      background-color: $light-gold;
+    }
+  }
+}

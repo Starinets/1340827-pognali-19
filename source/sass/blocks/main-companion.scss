@@ -1,0 +1,27 @@
+.main-companion {
+  &__header {
+    @include Text-Style-11;
+  }
+
+  &__text {
+    @include Text-Style-7;
+
+    > strong {
+      font-weight: bold;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    width: 270px;
+    height: 62px;
+
+    padding: 0 23px;
+
+    border-radius: 10px;
+    background-color: $light-gold;
+
+    @include Text-Style-16;
+    line-height: 62px;
+  }
+}

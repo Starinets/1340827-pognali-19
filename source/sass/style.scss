@@ -1,6 +1,38 @@
+@import "normalize.scss";
+
 /* ---------------------- Подключение глобальных стилей --------------------- */
 @import "variables.scss";
 @import "mixins.scss";
+@import "fonts.scss";
 @import "global.scss";
+@import "visually-hidden.scss";
+@import "display-none.scss";
 
-/* --------------------------- Подлуючение блоков --------------------------- */
+/* --------------------------- Подключение блоков --------------------------- */
+
+// header
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/site-list.scss";
+@import "blocks/contact-list.scss";
+@import "blocks/social-list.scss";
+@import "blocks/contact-line-list.scss";
+@import "blocks/list-how-to.scss";
+
+// main
+@import "blocks/page-main.scss";
+@import "blocks/main-info.scss";
+@import "blocks/main-about.scss";
+@import "blocks/main-directions.scss";
+@import "blocks/direction-country.scss";
+@import "blocks/main-companion.scss";
+@import "blocks/companion-user.scss";
+@import "blocks/user-country.scss";
+@import "blocks/transport-list.scss";
+@import "blocks/main-reg-info.scss";
+@import "blocks/reg-info-person.scss";
+@import "blocks/reg-info-bisnes.scss";
+
+//footer
+
+@import "blocks/page-footer.scss";

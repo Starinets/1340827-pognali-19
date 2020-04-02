@@ -6,6 +6,20 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+
+  // outline-style: dashed;
+  // outline-color: darkorange;
+  // outline-width: 1px;
+}
+
+body {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: normal;
+  text-align: center;
 }
 
 img {
@@ -14,4 +28,5 @@ img {
 
 a {
   text-decoration: none;
+  font-family: "Blogger Sans", "Arial", sans-serif;
 }

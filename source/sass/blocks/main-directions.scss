@@ -1,0 +1,29 @@
+.main-directions {
+  &__header {
+    @include Text-Style-11;
+  }
+
+  &__text {
+    @include Text-Style-12;
+  }
+
+  &__country {
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    display: block;
+
+    width: 270px;
+    height: 62px;
+
+    margin-top: 25px;
+    padding: 0 24px;
+
+    background-color: $light-gold;
+    border-radius: 10px;
+
+    @include Text-Style-16;
+    line-height: 62px;
+  }
+}

@@ -1,0 +1,11 @@
+.main-about {
+  background-image: url("../img/about-mobile@1x.png");
+
+  &__header {
+    @include Text-Style-11;
+  }
+
+  &__text {
+    @include Text-Style-7;
+  }
+}

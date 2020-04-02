@@ -1,0 +1,16 @@
+.companion-user {
+  background-color: $white;
+  border-radius: 10px;
+
+  &__photo {
+    border-radius: 10px 10px 0 0;
+  }
+
+  &__name {
+    @include Text-Style-19;
+  }
+
+  &__hashtags {
+    @include Text-Style-20;
+  }
+}

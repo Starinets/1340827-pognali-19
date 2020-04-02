@@ -1,0 +1,52 @@
+.contact-line-list {
+  display: flex;
+
+  @include list-resset;
+
+  &__call-us {
+    width: 40px;
+    height: 40px;
+
+    background-image: url("../img/topmenu-phone.svg");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: $mango;
+
+    border-radius: 20px;
+  }
+
+  &__write-us {
+    width: 40px;
+    height: 40px;
+
+    background-image: url("../img/topmenu-mail.svg");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: $mango-two;
+
+    border-radius: 20px;
+  }
+
+  &__autorisation {
+    width: 189px;
+    height: 40px;
+
+    background-color: $light-gold;
+
+    border-radius: 20px;
+  }
+
+  &__link {
+    display: block;
+
+    height: 100%;
+
+    @include Text-Style-4;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+}
