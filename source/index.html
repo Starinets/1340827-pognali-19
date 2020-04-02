@@ -251,6 +251,7 @@
                 width="35"
                 height="24"
                 alt="Шри-Ланка"
+                data-tooltip="Шри-Ланка"
               />
             </li>
             <li class="user-country__item">
@@ -260,6 +261,7 @@
                 width="35"
                 height="24"
                 alt="Тайланд"
+                data-tooltip="Тайланд"
               />
             </li>
             <li class="user-country__item">
@@ -269,15 +271,16 @@
                 width="35"
                 height="24"
                 alt="Сейшелы"
+                data-tooltip="Сейшелы"
               />
             </li>
           </ul>
 
           <ul class="companion-user__transport transport-list">
-            <li class="transport-list__item">Авиаперелет</li>
-            <li class="transport-list__item">Автотранспорт</li>
-            <li class="transport-list__item">Велосипед</li>
-            <li class="transport-list__item">Пешком</li>
+            <li class="transport-list__item" data-tooltip="Авиаперелет"></li>
+            <li class="transport-list__item" data-tooltip="Автотранспорт"></li>
+            <li class="transport-list__item" data-tooltip="Велосипед"></li>
+            <li class="transport-list__item" data-tooltip="пешком"></li>
           </ul>
 
           <div class="companion-user__level user-level">
@@ -316,6 +319,7 @@
                 width="35"
                 height="24"
                 alt="Бельгия"
+                data-tooltip="Бельгия"
               />
             </li>
             <li class="user-country__item">
@@ -325,6 +329,7 @@
                 width="35"
                 height="24"
                 alt="Чехия"
+                data-tooltip="Чехия"
               />
             </li>
           </ul>
@@ -395,9 +400,47 @@
         </div>
       </section>
 
-      <!-- ----------------------------------------------------------------------- -->
-      <!--                              Красный блок                               -->
-      <!-- ----------------------------------------------------------------------- -->
+      <section class="page-registration">
+        <h2 class="page-registration__title">Заинтересовались?</h2>
+        <p class="page-registration__text">
+          Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистрированы? Тогда
+          <a class="page-registration__autorisation" href="">авторизуйтесь</a>
+        </p>
+
+        <form
+          class="page-registration__form registration-form"
+          action="https://echo.htmlacademy.ru"
+          method="POST"
+        >
+          <input
+            class="registration-form__input"
+            type="text"
+            placeholder="E-mail"
+          />
+          <button
+            class="registration-form__button"
+            type="submit"
+            aria-label="Отправить E-mail"
+          ></button>
+        </form>
+
+        <p class="page-registration__text">
+          Остались вопросы? Мы с радостью на них ответим!
+        </p>
+
+        <ul class="page-registration__list contact-list">
+          <li class="contact-list__item">
+            <a class="contact-list__link" href="tel:+88005558628">
+              8 800 555-86-28
+            </a>
+          </li>
+          <li class="contact-list__item">
+            <a class="contact-list__link" href="mailto:mail@htmlacademy.ru">
+              mail@htmlacademy.ru
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer class="page-footer">
