@@ -9,13 +9,14 @@
 @import "display-none.scss";
 
 /* --------------------------- Подключение блоков --------------------------- */
-
+@import "blocks/button.scss";
 // header
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/site-list.scss";
 @import "blocks/contact-list.scss";
 @import "blocks/social-list.scss";
+@import "blocks/user-list.scss";
 @import "blocks/contact-line-list.scss";
 @import "blocks/list-how-to.scss";
 
@@ -28,10 +29,12 @@
 @import "blocks/main-companion.scss";
 @import "blocks/companion-user.scss";
 @import "blocks/user-country.scss";
+@import "blocks/user-level.scss";
 @import "blocks/transport-list.scss";
 @import "blocks/main-reg-info.scss";
 @import "blocks/reg-info-person.scss";
 @import "blocks/reg-info-bisnes.scss";
+@import "blocks/main-registration.scss";
 
 //footer
 

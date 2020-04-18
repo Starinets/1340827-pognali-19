@@ -1,29 +1,19 @@
-.main-directions {
-  &__header {
-    @include Text-Style-11;
-  }
+.main-directions__header {
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding-left: 25px;
 
-  &__text {
-    @include Text-Style-12;
-  }
+  @include header-mango;
+}
 
-  &__country {
-    margin-bottom: 10px;
-  }
+.main-directions__text {
+  margin-top: 0;
+  margin-bottom: 66px;
+  padding-left: 25px;
 
-  &__link {
-    display: block;
+  @include paragraph-gray;
+}
 
-    width: 270px;
-    height: 62px;
-
-    margin-top: 25px;
-    padding: 0 24px;
-
-    background-color: $light-gold;
-    border-radius: 10px;
-
-    @include Text-Style-16;
-    line-height: 62px;
-  }
+.main-directions__country {
+  margin-bottom: 10px;
 }

@@ -1,9 +1,13 @@
 .user-country {
   display: flex;
+  justify-content: center;
 
-  @include list-resset;
+  width: 100%;
 
-  &__item:not(:last-child) {
-    margin-right: 17px;
-  }
+  @include list-reset;
 }
+
+.user-country__item:not(:last-child) {
+  margin-right: 17px;
+}
+

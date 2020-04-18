@@ -1,12 +1,12 @@
 .main-reg-info {
   width: 100%;
   position: relative;
+}
 
-  &__bisines {
-    position: absolute;
-    left: 25px;
-    top: -10px;
+.main-reg-info__bisines {
+  position: absolute;
+  left: 25px;
+  top: -10px;
 
-    width: 270px;
-  }
+  width: 270px;
 }

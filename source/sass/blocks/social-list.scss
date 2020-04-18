@@ -1,74 +1,72 @@
 .social-list {
   display: flex;
   justify-content: center;
+}
 
-  @include list-resset;
+.social-list__item {
+  display: block;
 
-  &__item {
-    display: block;
+  width: 45px;
+  height: 45px;
 
-    width: 45px;
-    height: 45px;
+  &:hover > a,
+  &:focus > a {
+    opacity: 0.6;
+  }
+
+  &:active > a {
+    opacity: 0.3;
+  }
+
+  &--yellow {
+    background-color: $light-gold;
+
+    border-radius: 50%;
+
+    &:hover,
+    &:focus {
+      background-color: $mango-two;
+    }
 
     &:hover > a,
     &:focus > a {
-      opacity: 0.6;
+      opacity: 1;
     }
 
     &:active > a {
       opacity: 0.3;
     }
 
-    &--yellow {
-      background-color: $light-gold;
-
-      border-radius: 50%;
-
-      &:hover,
-      &:focus {
-        background-color: $mango-two;
-      }
-
-      &:hover > a,
-      &:focus > a {
-        opacity: 1;
-      }
-
-      &:active > a {
-        opacity: 0.3;
-      }
-
-      &:active {
-        background-color: $mango-two;
-      }
+    &:active {
+      background-color: $mango-two;
     }
   }
+}
 
-  &__link {
-    display: block;
+.social-list__link {
+  display: block;
 
-    font-size: 0;
-    height: 100%;
+  font-size: 0;
+  height: 100%;
+}
 
-    &.facebook {
-      background-image: url("../img/facebook.svg");
-      background-size: 11px;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
+.social-list__link.facebook {
+  background-image: url("../img/facebook.svg");
+  background-size: 11px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-    &.vkontakte {
-      background-image: url("../img/vk.svg");
-      background-size: 23px;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
+.social-list__link.vkontakte {
+  background-image: url("../img/vk.svg");
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-    &.instagram {
-      background-image: url("../img/instagram.svg");
-      background-size: 18px;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-  }
+.social-list__link.instagram {
+  background-image: url("../img/instagram.svg");
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
 }

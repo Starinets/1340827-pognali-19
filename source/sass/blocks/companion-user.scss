@@ -1,16 +1,32 @@
 .companion-user {
+  position: relative;
+  width: 270px;
+
+  padding-bottom: 12px;
+
   background-color: $white;
   border-radius: 10px;
+}
 
-  &__photo {
-    border-radius: 10px 10px 0 0;
-  }
+.companion-user__photo {
+  border-radius: 10px 10px 0 0;
+}
 
-  &__name {
-    @include Text-Style-19;
-  }
+.companion-user__name {
+  @include article-header;
 
-  &__hashtags {
-    @include Text-Style-20;
-  }
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.companion-user__hashtags {
+  @include article-tags;
+
+  margin-bottom: 12px;
+  padding: 0 40px;
+}
+
+.companion-user__country {
+  position: absolute;
+  top: 258px;
 }

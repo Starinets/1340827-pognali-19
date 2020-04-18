@@ -2,9 +2,18 @@
   display: flex;
   justify-content: center;
 
-  @include list-resset;
+  @include list-reset;
+}
 
-  &__item:not(:last-child) {
-    margin-right: 17px;
-  }
+.transport-list__item {
+  display: block;
+
+  width: 33px;
+  height: 33px;
+
+  background-color: red;
+
+  border-radius: 50%;
+
+  font-size: 0;
 }

@@ -1,613 +1,6 @@
-@mixin Text-Style-6 {
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 1.11;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-28 {
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 1.11;
-  color: $white;
-}
-
-@mixin Text-Style-2 {
-  font-size: 36px;
-  line-height: 1;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-3 {
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1.2;
-  text-align: center;
-  color: $dark-blue-grey;
-}
-
-@mixin Text-Style-37 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 0.75;
-  text-align: center;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-23 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1;
-  text-align: center;
-  color: $mango;
-}
-
-@mixin Text-Style-17 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-11 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1;
-  color: $mango;
-}
-
-@mixin Text-Style-29 {
-  font-size: 22.5px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-19 {
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 1;
-  text-align: center;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-13 {
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-two;
-}
-
-@mixin Text-Style-33 {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-9 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-two;
-}
-
-@mixin Text-Style-25 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1;
-  color: $greyish-brown-30;
-}
-
-@mixin Text-Style-16 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-10 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.67;
-  color: $black;
-}
-
-@mixin Text-Style-4 {
-  font-size: 17px;
-  font-weight: bold;
-  line-height: 1.76;
-  text-align: center;
-  color: $dark-two;
-}
-
-@mixin Text-Style-8 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.38;
-  color: $white;
-}
-
-@mixin Text-Style-5 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.38;
-  color: $dark-blue-grey;
-}
-
-@mixin Text-Style-30 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.13;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-26 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.38;
-  color: $light-gold;
-}
-
-@mixin Text-Style-22 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-blue-grey;
-}
-
-@mixin Text-Style-15 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.88;
-  text-align: right;
-  color: $greyish-brown-30;
-}
-
-@mixin Text-Style-14 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.13;
-  color: $greyish-brown-30;
-}
-
-@mixin Text-Style-21 {
-  font-size: 16px;
-  line-height: 0.88;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-20 {
-  font-size: 16px;
-  line-height: 1.13;
-  text-align: center;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-7 {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.38;
-  color: $white;
-}
-
-@mixin Text-Style-27 {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.38;
-  text-align: center;
-  color: $light-gold;
-}
-
-@mixin Text-Style-24 {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.38;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-12 {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.38;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-36 {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.2;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-32 {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 1.5px;
-  text-align: center;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-38 {
-  font-size: 15px;
-  line-height: 1.2;
-  text-align: center;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-35 {
-  font-size: 15px;
-  line-height: 1.2;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-31 {
-  font-size: 15px;
-  line-height: 1;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-34 {
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 1.5;
-  color: $dark-two;
-}
-
-@mixin Text-Style-18 {
-  font-size: 14px;
-  line-height: 1;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-40 {
-  font-size: 38px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-two;
-}
-
-@mixin Text-Style-79 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-slate-blue-70;
-}
-
-@mixin Text-Style-77 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-slate-blue-30;
-}
-
-@mixin Text-Style-44 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-51 {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1;
-  text-align: center;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-80 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: 2px;
-  color: $dark-slate-blue-30;
-}
-
-@mixin Text-Style-78 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: 2px;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-73 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: 2px;
-  color: $black-10;
-}
-
-@mixin Text-Style-72 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: 2px;
-  color: $black-60;
-}
-
-@mixin Text-Style-71 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: 2px;
-  color: $black-30;
-}
-
-@mixin Text-Style-70 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: 2px;
-  text-align: center;
-  color: $dark-slate-blue-30;
-}
-
-@mixin Text-Style-69 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: 2px;
-  text-align: center;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-67 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: 2px;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-65 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5;
-  text-align: left;
-  color: $light-gold-30;
-}
-
-@mixin Text-Style-64 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5;
-  text-align: left;
-  color: $light-gold;
-}
-
-@mixin Text-Style-63 {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: $white;
-}
-
-@mixin Text-Style-82 {
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-81 {
-  font-size: 20px;
-  line-height: 1.2;
-  color: $greyish-brown-30;
-}
-
-@mixin Text-Style-68 {
-  font-size: 20px;
-  line-height: 1.2;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-66 {
-  font-size: 20px;
-  line-height: 1.2;
-  color: $greyish-brown-60;
-}
-
-@mixin Text-Style-56 {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-76 {
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 1.8px;
-  color: $white;
-}
-
-@mixin Text-Style-75 {
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 1.8px;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-74 {
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 1.8px;
-  color: $greyish-brown-30;
-}
-
-@mixin Text-Style-41 {
-  font-size: 18px;
-  line-height: 1.22;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-57 {
-  font-size: 17px;
-  line-height: 1.76;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-61 {
-  font-size: 16.5px;
-  font-weight: bold;
-  line-height: 1.79;
-  text-align: center;
-  color: $dark-two;
-}
-
-@mixin Text-Style-58 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.38;
-  color: $dark-blue-grey-30;
-}
-
-@mixin Text-Style-45 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-42 {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.13;
-  text-align: center;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-49 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 1.6px;
-  text-align: right;
-  color: $dark-slate-blue-30;
-}
-
-@mixin Text-Style-48 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 1.6px;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-62 {
-  font-size: 16px;
-  line-height: 1.38;
-  color: $greyish-brown-30;
-}
-
-@mixin Text-Style-43 {
-  font-size: 16px;
-  line-height: 1.38;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-39 {
-  font-size: 16px;
-  line-height: 1.38;
-  text-align: center;
-  color: $greyish-brown;
-}
-
-@mixin Text-Style-50 {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 0.9;
-  letter-spacing: 1.5px;
-  text-align: center;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-60 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.29;
-  letter-spacing: 1.4px;
-  text-align: center;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-59 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.29;
-  letter-spacing: 1.4px;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-55 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.29;
-  letter-spacing: 1.4px;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-47 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.29;
-  letter-spacing: 1.4px;
-  color: $black-30;
-}
-
-@mixin Text-Style-46 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 1.4px;
-  color: $dark-slate-blue;
-}
-
-@mixin Text-Style-54 {
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: $white;
-}
-
-@mixin Text-Style-53 {
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: $greyish-brown-30;
-}
-
-@mixin Text-Style-52 {
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: $greyish-brown;
-}
-
-@mixin list-resset {
+@mixin list-reset {
   margin: 0;
-  padding: 0;
-
+  padding-left: 0;
   list-style: none;
 }
 
@@ -615,4 +8,103 @@
   max-width: $max-width;
 
   margin: 0 auto;
+}
+
+@mixin inner-setup {
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+@mixin container-setup {
+  width: 100%;
+
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@mixin header-mango {
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: $mango;
+}
+
+@mixin paragraph-white {
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: $white;
+}
+
+@mixin paragraph-gray {
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: $greyish-brown;
+}
+
+@mixin article-header {
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: $dark-slate-blue;
+}
+
+@mixin article-country-text {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: $greyish-brown-30;
+}
+
+@mixin article-country-counter {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: right;
+  color: $greyish-brown-30;
+}
+
+@mixin article-tags {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: $greyish-brown;
+}
+
+@mixin button-text {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
 }

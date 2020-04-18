@@ -1,11 +1,15 @@
 .main-about {
   background-image: url("../img/about-mobile@1x.png");
+}
 
-  &__header {
-    @include Text-Style-11;
-  }
+.main-about__header {
+  margin: 0;
+  padding: 33px 0 23px 25px;
+  @include header-mango;
+}
 
-  &__text {
-    @include Text-Style-7;
-  }
+.main-about__text {
+  @include paragraph-white;
+  padding-left: 25px;
+  padding-right: 40px;
 }

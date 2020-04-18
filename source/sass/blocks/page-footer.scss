@@ -1,49 +1,50 @@
 .page-footer {
   background-color: $transparent;
+}
 
-  &__wrapper {
-    @include wrapper-setup;
+.page-footer__wrapper {
+  @include wrapper-setup;
 
-    padding: 35px 25px 14px 25px;
+  padding: 35px 25px 14px 25px;
 
-    background-color: $white;
-    border-radius: 20px 20px 0 0;
-  }
+  background-color: $white;
+  border-radius: 20px 20px 0 0;
+}
 
-  &__logo-link {
-    margin-bottom: 41px;
-  }
+.page-footer__logo-link {
+  margin-bottom: 41px;
+}
 
-  &__social {
-    margin-bottom: 37px;
-  }
+.page-footer__social {
+  @include list-reset;
+  margin-bottom: 37px;
+}
 
-  &__copyright-wrapper {
-    display: flex;
-    justify-content: space-between;
+.page-footer__copyright-wrapper {
+  display: flex;
+  justify-content: space-between;
 
-    padding-top: 14px;
+  padding-top: 14px;
 
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-  }
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
 
-  &__copyright {
-    margin: 0;
-  }
+.page-footer__copyright {
+  margin: 0;
+}
 
-  &__map-wrapper {
-    position: relative;
+.page-footer__map-wrapper {
+  position: relative;
 
-    @include wrapper-setup;
-  }
+  @include wrapper-setup;
+}
 
-  &__map {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+.page-footer__map {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 
-    border: 0;
+  border: 0;
 
-    z-index: -1;
-  }
+  z-index: -1;
 }

@@ -1,17 +1,12 @@
 .site-list {
-  // .site-list__item
+  display: flex;
+  flex-direction: column;
+}
 
-  &__item {
-    // .site-list__item--active
-
-    &--active {
-      color: $white;
-    }
-  }
-
-  // .site-list__link
-
-  &__link {
-    color: $white;
-  }
+.site-list__link {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  color: $dark-blue-grey;
 }

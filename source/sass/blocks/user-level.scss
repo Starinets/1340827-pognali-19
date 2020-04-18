@@ -1,0 +1,59 @@
+.user-level {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+
+  display: block;
+  width: 60px;
+  height: 60px;
+
+  border: 3px solid $mango;
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+  border-radius: 50%;
+}
+
+.user-level__level {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+
+  width: 33px;
+
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+}
+
+.user-level__text {
+  position: absolute;
+  top: 33px;
+  left: 10px;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+
+  width: 33px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+}

@@ -1,16 +1,13 @@
-.main-info {
-  &__quote {
-    margin: 0 90px 25px 25px;
+.main-info__quote {
+  margin: 0 90px 25px 25px;
 
-    @include Text-Style-7;
-  }
+  @include paragraph-white;
+}
 
-  &__cite {
-    display: block;
+.main-info__cite {
+  display: block;
 
-    margin: 0 90px 33px 25px;
+  margin: 0 90px 33px 25px;
 
-    @include Text-Style-8;
-    font-style: normal;
-  }
+  @include paragraph-white;
 }
