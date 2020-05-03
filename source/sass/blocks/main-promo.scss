@@ -1,0 +1,48 @@
+.main-promo {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-promo__container {
+  position: relative;
+
+  //min-height: 478px;
+}
+
+.main-promo__header {
+  margin: 0;
+  padding: 97px 10px 267px 10px;
+
+  color: $white;
+
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.main-promo__contacts {
+  position: absolute;
+
+  right: 0;
+  bottom: -20px;
+}
+
+.main-promo__info {
+  margin-top: 50px;
+  margin-bottom: 33px;
+}
+
+@media (min-width: $tablet) {
+  .main-promo__container {
+    //min-height: 403px;
+  }
+
+  .main-promo__header {
+    font-size: 60px;
+    padding: 170px 138px 37px 138px;
+  }
+}

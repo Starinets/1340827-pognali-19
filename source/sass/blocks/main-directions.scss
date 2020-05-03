@@ -1,0 +1,19 @@
+.main-directions__header {
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding-left: 25px;
+
+  @include header-mango;
+}
+
+.main-directions__text {
+  margin-top: 0;
+  margin-bottom: 66px;
+  padding-left: 25px;
+
+  @include paragraph-gray;
+}
+
+.main-directions__country {
+  margin-bottom: 10px;
+}

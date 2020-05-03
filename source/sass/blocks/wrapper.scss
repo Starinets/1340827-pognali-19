@@ -1,0 +1,82 @@
+.wrapper {
+  //width: 100%;
+
+  &--rounded {
+    border-radius: 0 0 20px 20px;
+  }
+
+  &--rounded-top {
+    border-radius: 20px 20px 0 0;
+  }
+
+  &--gray {
+    background-color: $pale-grey;
+  }
+
+  &--blue {
+    background-color: $dark-blue-grey;
+  }
+
+  &--gold {
+    background-color: $light-gold;
+  }
+
+  &--transparent {
+    background-color: $transparent;
+  }
+
+  &--white {
+    background-color: $white;
+  }
+}
+
+@media (min-width: $tablet) {
+  .wrapper {
+    &--rounded {
+      border-radius: 0 0 35px 35px;
+    }
+
+    &--rounded-top {
+      border-radius: 35px 35px 0 0;
+    }
+  }
+}
+
+// .page-main__info-container {
+//   padding-top: 50px;
+//   padding-bottom: 40px;
+// }
+
+// .page-main__directions-container {
+//   padding-top: 70px;
+//   padding-bottom: 25px;
+// }
+
+// .page-main__companion-container {
+//   padding-top: 70px;
+//   padding-bottom: 25px;
+// }
+
+// .page-main__reg-info-container {
+//   padding-top: 50px;
+//   padding-bottom: 25px;
+// }
+
+// .page-main__registration-container {
+//   padding-top: 72px;
+//   padding-bottom: 45px;
+
+//   color: $white;
+// }
+
+// .page-main__location-container {
+//   color: $light-gold;
+
+//   padding-top: 32px;
+//   padding-bottom: 35px;
+// }
+
+// .page-main__map-wrapper {
+//   height: 272px;
+//   background-color: $transparent;
+// }

@@ -1,0 +1,23 @@
+.main-about {
+  background-image: url("../img/about-mobile@1x.png");
+  background-repeat: no-repeat;
+}
+
+.main-about__header {
+  margin: 0;
+  padding: 33px 0 23px 25px;
+
+  @include header-mango;
+}
+
+.main-about__text {
+  @include paragraph-white;
+  padding-left: 25px;
+  padding-right: 40px;
+}
+
+@media (min-width: $tablet) {
+  .main__about {
+    padding-top: 43px;
+  }
+}
