@@ -1,13 +1,27 @@
-.main-info__quote {
+.main-info {
   margin: 0 90px 25px 25px;
 
   @include paragraph-white;
 }
 
-.main-info__cite {
+.main-info > cite {
   display: block;
 
-  margin: 0 90px 33px 25px;
+  margin-top: 25px;
 
   @include paragraph-white;
+  font-weight: 500;
+}
+
+@media (min-width: $tablet) {
+  .main-info {
+    margin: 50px 378px 213px 34px;
+    font-size: 28px;
+  }
+
+  .main-info > cite {
+    margin-top: 52px;
+
+    font-size: 21px;
+  }
 }

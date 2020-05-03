@@ -4,26 +4,6 @@
   list-style: none;
 }
 
-@mixin wrapper-setup {
-  max-width: $max-width;
-
-  margin: 0 auto;
-}
-
-@mixin inner-setup {
-  width: 100%;
-
-  margin: 0 auto;
-}
-
-@mixin container-setup {
-  width: 100%;
-
-  margin: 0 auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
 @mixin header-mango {
   font-size: 24px;
   font-weight: bold;

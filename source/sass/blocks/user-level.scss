@@ -7,17 +7,22 @@
   width: 60px;
   height: 60px;
 
-  border: 3px solid $mango;
-
   background-color: rgba(0, 0, 0, 0.6);
 
   border-radius: 50%;
 }
 
+.user-level__progress {
+  transform: rotate(-90deg);
+
+  fill: $transparent;
+  stroke: $mango;
+}
+
 .user-level__level {
   position: absolute;
-  top: 7px;
-  left: 10px;
+  top: 10px;
+  left: 14px;
 
   margin: 0;
 
@@ -38,8 +43,8 @@
 
 .user-level__text {
   position: absolute;
-  top: 33px;
-  left: 10px;
+  top: 35px;
+  left: 14px;
 
   margin: 0;
 

@@ -1,0 +1,177 @@
+.page-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  min-height: 73px;
+  //padding: 17px 0 31px 0;
+  padding-top: 17px;
+  padding-bottom: 31px;
+}
+
+.page-nav__toggler {
+  position: relative;
+
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+
+  background-color: transparent;
+
+  border: none;
+
+  &::before,
+  &::after {
+    content: "";
+
+    position: absolute;
+
+    width: 25px;
+    height: 3px;
+
+    left: 7px;
+
+    background-color: $pinkish-grey;
+
+    border-radius: 1.5px;
+  }
+
+  &::before {
+    top: 14px;
+  }
+
+  &::after {
+    top: 22px;
+  }
+}
+
+.page-nav__menu {
+  margin-top: 70px;
+  margin-bottom: 58px;
+
+  flex-grow: 1;
+}
+
+.page-nav__auth {
+  margin-bottom: 50px;
+}
+
+// .page-nav__phone {
+//width: 80%;
+// }
+
+.page-nav__mail {
+  //width: 80%;
+
+  margin-bottom: 35px;
+}
+
+.page-nav__menu-socials {
+  flex-grow: 1;
+}
+
+@media (min-width: $tablet) {
+  .page-nav {
+    min-height: 132px;
+
+    //padding: 40px 0 43px 0;
+    padding-top: 40px;
+    padding-bottom: 43px;
+  }
+
+  .page-nav__logo {
+    flex: 0 0 165px;
+  }
+
+  .page-nav__menu {
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-bottom: 150px;
+    order: 2;
+  }
+
+  .page-nav__auth {
+    margin-bottom: 0;
+    order: 1;
+  }
+
+  .page-nav__phone {
+    //width: 100%;
+
+    margin-left: 60px;
+
+    order: 3;
+  }
+
+  .page-nav__mail {
+    //width: 100%;
+
+    margin-bottom: 125px;
+    margin-left: 60px;
+
+    order: 4;
+  }
+
+  .page-nav__menu-socials {
+    justify-content: flex-start;
+
+    margin-bottom: 0;
+    margin-left: 60px;
+
+    order: 5;
+  }
+}
+
+@media (min-width: $desktop) {
+  .page-nav {
+    min-height: 90px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .page-nav__logo {
+    flex: 0 0 auto;
+  }
+
+  .page-nav__toggler {
+    display: none;
+  }
+
+  .page-nav__menu {
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+
+    order: 1;
+  }
+
+  .page-nav__auth {
+    order: 4;
+  }
+
+  .page-nav__phone {
+    width: auto;
+
+    margin-left: 0;
+
+    order: 2;
+  }
+
+  .page-nav__mail {
+    width: auto;
+
+    margin-bottom: 0;
+    margin-left: 0;
+
+    order: 3;
+  }
+
+  .page-nav__menu-socials {
+    display: none;
+  }
+}
