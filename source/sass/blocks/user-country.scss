@@ -4,9 +4,13 @@
 
   width: 100%;
 
+  font-size: 0;
+
   @include list-reset;
 }
 
 .user-country__item:not(:last-child) {
   margin-right: 17px;
+
+  font-size: 0;
 }

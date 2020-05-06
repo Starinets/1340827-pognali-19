@@ -1,0 +1,39 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltip:hover::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% - 8px);
+
+  z-index: 1;
+
+  border: 8px solid transparent;
+  border-bottom-color: $dark-blue-grey-three;
+}
+
+.tooltip:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% + 8px);
+
+  z-index: 1;
+
+  margin: 0;
+  padding: 18px 25px;
+
+  color: $white;
+
+  font-size: 20px;
+  line-height: 1;
+  white-space: nowrap;
+
+  background-color: $dark-blue-grey-three;
+
+  border-radius: 4px;
+}
