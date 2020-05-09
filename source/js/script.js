@@ -1,27 +1,21 @@
-const navigation = document.querySelector(".page-nav");
+const nav = document.querySelector(".page-nav");
 const navToggler = document.querySelector(".page-nav__toggler");
-var munuItems = document.querySelectorAll(".menu-item");
 
-navigation.classList.remove("page-nav--no-js");
+console.log("-- start --");
 
-//headerContent.classList.remove("page-header__content-wrapper--no-js");
+nav.classList.remove("page-nav--no-js");
+nav.classList.add("page-nav--closed");
 
-// navToggler.addEventListener("click", function () {
-//   navigation.classList.toggle("page-nav--active");
-//   nav.classList.toggle("page-nav--inactive");
-//   nav.classList.add("page-nav--white");
-//   if (pageYOffset === 0 && nav.classList.contains("page-nav--inactive")) {
-//     nav.classList.remove("page-nav--white");
-//   }
-// });
+// IE11 Заявляет, что поддерживает ECMA2016, но выдает ошибку на определение стрелочной функции...
+navToggler.onclick = () => {
+  nav.classList.toggle("page-nav--opened");
+  nav.classList.toggle("page-nav--closed");
+};
 
-// window.addEventListener("scroll", function () {
-//   navigation.classList.add("page-nav--white");
-//   nav.classList.add("page-nav--scrolled");
-//   nav.classList.remove(".page-nav--inner");
-//   if (pageYOffset === 0 && nav.classList.contains("page-nav--inactive")) {
-//     nav.classList.remove("page-nav--white");
-//     nav.classList.remove("page-nav--scrolled");
-//     nav.classList.add("page-nav--inner");
-//   }
-// });
+window.onscroll = () => {
+  if (pageYOffset > 0) {
+    nav.classList.add("page-nav--scrolled");
+  } else {
+    nav.classList.remove("page-nav--scrolled");
+  }
+};

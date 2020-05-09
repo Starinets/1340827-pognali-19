@@ -1,6 +1,8 @@
 .main-promo {
   display: flex;
   flex-direction: column;
+
+  width: 100%;
 }
 
 .main-promo__container {
@@ -34,6 +36,10 @@
 .main-promo__info {
   margin-top: 50px;
   margin-bottom: 33px;
+}
+
+.main-promo__how-to {
+  width: 100%;
 }
 
 @media (min-width: $tablet) {

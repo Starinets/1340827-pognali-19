@@ -67,48 +67,87 @@
     // prettier-ignore
     background: linear-gradient(to bottom, $mango 0%, $mango 50%, $mango-two 50%, $mango-two 100%);
     border-radius: 20px;
+
+    width: 688px;
   }
 
   .how-to__item {
     flex-direction: column;
-    flex-basis: 50%;
 
-    height: 140px;
+    justify-content: space-between;
+
+    box-sizing: content-box;
+    flex-basis: 213px;
+    height: 87px;
+
+    padding: 29px 100px 23px 31px;
 
     font-size: 24px;
-    padding: 31px 100px 28px 31px;
 
     &::after {
       margin-left: 0;
 
       font-size: 30px;
       font-weight: bold;
-      line-height: 1.5;
+      line-height: 1;
       color: $white;
     }
 
     &--orange1 {
-      background-color: $mango;
-
       border-radius: 20px 0 0 0;
     }
 
     &--orange2 {
-      background-color: $mango-three;
-
       border-radius: 20px 20px 0 0;
     }
 
     &--yellow1 {
-      background-color: $mango-two;
-
       border-radius: 0 0 0 20px;
     }
 
     &--yellow2 {
-      background-color: $light-gold;
-
       border-radius: 0 0 20px 20px;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .how-to {
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    // prettier-ignore
+    background: linear-gradient(to right, $mango 0%, $mango 50%, $mango-three 50%, $mango-three 75%, $mango-two 75%, $mango-two 100%);
+    border-radius: 20px;
+
+    width: 1320px;
+  }
+
+  .how-to__item {
+    flex-direction: row;
+
+    box-sizing: border-box;
+    flex-basis: 25%;
+    height: 107px;
+
+    padding: 29px 33px 31px 33px;
+
+    font-size: 24px;
+
+    &--orange1 {
+      border-radius: 20px 0 0 20px;
+    }
+
+    &--orange2 {
+      border-radius: 20px 0 0 20px;
+    }
+
+    &--yellow1 {
+      border-radius: 20px 0 0 20px;
+    }
+
+    &--yellow2 {
+      border-radius: 20px;
     }
   }
 }

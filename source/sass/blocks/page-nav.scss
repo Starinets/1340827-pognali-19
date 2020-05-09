@@ -1,19 +1,29 @@
 .page-nav {
+  position: fixed;
+
+  width: 100%;
+
+  z-index: 9999;
+
   &--opened {
     background-color: $white;
   }
 
   &--closed {
+    height: 73px;
+
     background-color: $transparent;
+
+    overflow: hidden;
   }
 
   &--scrolled {
     background-color: $white;
   }
-}
 
-.page-nav--no-js .page-nav__toggler {
-  display: none;
+  &--no-js {
+    position: static;
+  }
 }
 
 .page-nav__container {
@@ -23,10 +33,10 @@
   align-items: center;
   flex-wrap: wrap;
 
-  min-height: 73px;
-
   padding-top: 17px;
   padding-bottom: 31px;
+
+  min-height: 73px;
 }
 
 .page-nav__logo {
@@ -35,7 +45,9 @@
   font-size: 0;
 }
 
-.page-nav--no-js .page-nav__logo::after {
+.page-nav--no-js .page-nav__logo::after,
+.page-nav--opened .page-nav__logo::after,
+.page-nav--scrolled .page-nav__logo::after {
   content: "";
 
   position: absolute;
@@ -82,14 +94,32 @@
     background-color: $pinkish-grey;
 
     border-radius: 1.5px;
-  }
 
+    transition: 0.3s;
+  }
+}
+
+.page-nav--no-js .page-nav__toggler {
+  display: none;
+}
+
+.page-nav--closed .page-nav__toggler {
   &::before {
     top: 14px;
   }
 
   &::after {
     top: 22px;
+  }
+}
+
+.page-nav--opened .page-nav__toggler {
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
   }
 }
 
@@ -116,11 +146,21 @@
   .page-nav {
     min-height: 132px;
 
-    padding-top: 40px;
-    padding-bottom: 43px;
+    &--closed {
+      height: 132px;
+    }
   }
 
-  .page-nav--no-js .page-nav__logo::after {
+  .page-nav__container {
+    padding-top: 40px;
+    padding-bottom: 43px;
+
+    min-height: 132px;
+  }
+
+  .page-nav--no-js .page-nav__logo::after,
+  .page-nav--opened .page-nav__logo::after,
+  .page-nav--scrolled .page-nav__logo::after {
     background-image: url("../img/logo-tablet-blue@1x.png");
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
@@ -171,11 +211,22 @@
   .page-nav {
     min-height: 90px;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    &--opened,
+    &--closed {
+      height: 90px;
+    }
   }
 
-  .page-nav--no-js .page-nav__logo::after {
+  .page-nav__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    min-height: 90px;
+  }
+
+  .page-nav--no-js .page-nav__logo::after,
+  .page-nav--opened .page-nav__logo::after,
+  .page-nav--scrolled .page-nav__logo::after {
     background-image: url("../img/logo-desktop-blue@1x.png");
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
